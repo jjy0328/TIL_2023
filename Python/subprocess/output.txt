@@ -1,0 +1,6 @@
+total 8
+drwxr-xr-x@ 5 jeongjuyeong  staff   160 Apr 11 13:48 [1m[36m.[m[m
+drwxr-xr-x@ 9 jeongjuyeong  staff   288 Apr 11 13:34 [1m[36m..[m[m
+drwxr-xr-x@ 2 jeongjuyeong  staff    64 Apr 11 13:46 [1m[36m.ipynb_checkpoints[m[m
+-rw-r--r--  1 jeongjuyeong  staff     0 Apr 11 13:48 output.txt
+-rw-r--r--  1 jeongjuyeong  staff  3661 Apr 11 13:34 subprocess.ipynb
