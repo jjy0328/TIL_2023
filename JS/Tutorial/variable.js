@@ -1,7 +1,7 @@
 'use strict';
 
 /* 
-    1. Variable
+    1. Variable (r/w)
     let (added in ES6)
     블럭 안에 있는 변수는 블럭 밖에서는 사용할 수 없다.
     global scope은 블럭 안팎으로 사용가능하다.
@@ -30,7 +30,7 @@ console.log(globalName);
 */
 
 /*
-    2. Constant
+    2. Constant (r)
     한 번 선언하면 값이 절대 변하지 않는다.
     immutable data type
     1) 보안상의 이유
@@ -39,6 +39,15 @@ console.log(globalName);
 */
 const daysInWeek = 7;
 const maxNumber = 5;
+
+/*
+    Note!
+    Immutable data types : primitive types, frozen objects (i.e. object.freeze())
+        데이터 타입 자체를 변경하지 못함
+    Mutable data types : all objects by default are mutable in JS
+        변경이 가능한 데이터 타입
+
+*/
 
 /*
     3. Variable types
